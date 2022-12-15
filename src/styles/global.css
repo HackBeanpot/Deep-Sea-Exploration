@@ -19,7 +19,7 @@
     padding: 10px;
 }
 
-.row-one {
+.component-relations {
     margin-top: 50px;
     display: flex;
     height: fit-content;
@@ -59,16 +59,14 @@
     padding-bottom: 20px;
 }
 
-.explorer-picture {
-    margin-top: 40px;
+.message {
     padding-top: 15px;
     padding-bottom: 15px;
     background: #DE8563;
     width: 500px;
     height: 500px;
     border-radius: 25px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .checklist-card {

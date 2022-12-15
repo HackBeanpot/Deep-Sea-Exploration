@@ -2,43 +2,58 @@ import '../styles/global.css'
 import { useState } from "react";
 
 function Checklist() {
-    // Exercise 4: 
-    // Make sure the checkList is apart of the state. Hint: use the useState hook
-    
-    // Exercise 5:
-    // Enable the Clear All button to clear all items from the list
-
-    // Exercise 6: 
-    // Enable the Add Item button to add items to the checkList
     const checkList = ["hat", "sunglasses", "water"];
 
-    const [inputVal, setInputVal] = useState("");
+    const [toAdd, setToAdd] = useState("");
     return (
         <div className="checklist-card">
-            <h1 className="list-header">What to Pack</h1>
-            <ul >
-                {checkList.map((item) => (
-                    <div>
-                        <input value={item} type="checkbox" />
-                        <span className="list-item">{item}</span>
-                    </div>
-                ))}
-            </ul>
-            <div className="buttons-panel">
-                <input className="inputs" value={inputVal} onChange={(e) => setInputVal(e.target.value)} />
-                <button
-                    className="inputs"
-                //onClick={}
-                >
-                    Add item
-                </button>
-                <button
-                    className="inputs"
-                //onClick={}
-                >Clear All</button>
-            </div>
+            {/* Exercise 2: 
+                    Make sure the checkList is apart of the state. Hint: use the useState hook */}
+            {createCheckList(checkList)}
+            {checkListButtons(toAdd, setToAdd)}
         </div>
     );
 }
+
+// Exercise 1:
+// Add your name where it says "[Insert Name] Packing List"
+function createCheckList(checkList) {
+    return <div>
+        <h1 className="list-header">[Insert Name] Packing List</h1>
+        <ul >
+            {checkList.map((item) => (
+                <div>
+                    <input value={item} type="checkbox" />
+                    <span className="list-item">{item}</span>
+                </div>
+            ))}
+        </ul>
+    </div>
+}
+
+// Exercise 3:
+// Enable the Clear All button to clear all items from the list
+
+
+// Exercise 4: 
+// Enable the Add Item button to add items to the checkList
+
+
+function checkListButtons(toAdd, setToAdd) {
+    return <div className="buttons-panel">
+        <input className="inputs" value={toAdd} onChange={(e) => setToAdd(e.target.value)} />
+        <button
+            className="inputs"
+            // onClick={}
+        >
+            Add item
+        </button>
+        <button
+            className="inputs"
+            // onClick={}
+        >Clear All</button>
+    </div>;
+}
+
 
 export default Checklist;

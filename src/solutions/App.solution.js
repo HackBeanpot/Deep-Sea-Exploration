@@ -1,0 +1,27 @@
+import '../styles/global.css'
+import Checklist from './Checklist.solution'
+import "@fontsource/nunito-sans";
+import React, { useState } from 'react'
+import Message from './Message.solution';
+import MessageSender from './MessageSender.solution';
+
+function App() {
+//   Exercise 5:
+//   Allow the "Send Message to Message Component" button to display the message typed in the Checklist component in the Message component. 
+
+//   Hint: put relevant state and state "setters" to the parent of both components and pass down needed state and state "setters" down to the respective components.
+  const [message, setMessage] = useState("");
+  return (
+    <div className='parent'>
+      <div className="component-relations">
+        <Checklist />
+        <MessageSender setMessage={setMessage}/>
+        <Message message={message} />
+      </div>
+    </div>
+  );
+}
+
+export default App;
+
+

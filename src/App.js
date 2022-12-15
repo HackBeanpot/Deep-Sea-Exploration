@@ -1,19 +1,22 @@
-
 import './styles/global.css'
-import ExplorerCard from './components/ExplorerCard';
-import ExplorerPicture from './components/ExplorerPicture';
-import "@fontsource/nunito-sans";
 import Checklist from './components/Checklist'
+import "@fontsource/nunito-sans";
+import React, { useState } from 'react'
+import Message from './components/Message';
+import MessageSender from './components/MessageSender';
+
 
 function App() {
+  // Exercise 5:
+  // Allow the "Send Message to Message Component" button to display the message typed in the Checklist component in the Message component.
+
+  // Hint: put relevant state and state "setters" to the parent of both components and pass down needed state and state "setters" down to the respective components.
   return (
     <div className='parent'>
-      <div className="row-one">
-        <ExplorerCard />
-        <div>
-          <Checklist />
-          <ExplorerPicture />
-        </div>
+      <div className="component-relations">
+        <Checklist />
+        <MessageSender />
+        <Message />
       </div>
     </div>
   );
