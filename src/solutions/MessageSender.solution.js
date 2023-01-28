@@ -1,17 +1,15 @@
 import React, { useState } from 'react'
 
-function MessageSender({ setMessage }) {
-    const [msg, setMsg] = useState("");
+function MessageSender({setMessage}) {
+    const [messageInput, setMessageInput] = useState("");
     return <div>
         <div className="checklist-card">
             <h1 className="list-header">Send A Message To Your Future Self</h1>
             <div className="buttons-panel">
-                <input className="inputs" value={msg} onChange={(e) => {
-                    setMsg(e.target.value)
-                }} />
+                <input className="inputs" value={messageInput} onChange={(e) => { setMessageInput(e.target.value)}} />
                 <button
                     className="inputs"
-                    onClick={ () => setMessage(msg)}
+                    onClick={() => setMessage(messageInput)}
                 >
                     Send Message to Message Component
                 </button>
@@ -21,3 +19,5 @@ function MessageSender({ setMessage }) {
 }
 
 export default MessageSender
+
+

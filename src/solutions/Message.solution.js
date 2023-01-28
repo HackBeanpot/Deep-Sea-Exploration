@@ -5,10 +5,11 @@ function Message({message}) {
         <div>
             <div className="message">
                 <h1>Message Component</h1>
-                <body>{message}</body>
+                <h1>{message}</h1>
             </div>
         </div>
     )
 }
 
 export default Message;
+

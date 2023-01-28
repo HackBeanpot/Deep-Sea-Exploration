@@ -42,14 +42,14 @@ In the Checklist.js file:
 Make sure the checkList is apart of the state. Hint: use the useState hook
 
 ### Exercise 3:
-In Checklist.js file:
-
-Enable the Clear All button to clear all items from the list
-
-### Exercise 4:
 In the Checklist.js file:
 
 Enable the Add Item button to add items to the checkList
+
+### Exercise 4:
+In Checklist.js file:
+
+Enable the Clear All button to clear all items from the list
 
 ### Exercise 5:
 Allow the "Send Message to Message Component" button to display the message typed in the Checklist component in the Message component. 
