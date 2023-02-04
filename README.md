@@ -1,21 +1,12 @@
 # Pre-Work:
 1. Install node: https://nodejs.org/en/download/
 2. Download a text editor (such as VsCode)
-3. Create a Github Account
-4. Download git: 
-
-* For Windows:
-  * git-scm.com/downloads
-
-
-* For Mac: 
-  * In your terminal: git --version or git (you’ll be prompted to install git)
-
-  * Else try
-    * https://git-scm.com/download/mac(you may have to download Homebrew if trying the first option)
-
+3. 
 
 # Set Up 
+
+### `Download the code`
+Download the zip of this repository or do git clone 
 
 ### `npm install`
 
