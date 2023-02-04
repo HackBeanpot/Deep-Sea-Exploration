@@ -1,17 +1,15 @@
 # Pre-Work:
 1. Install node: https://nodejs.org/en/download/
 2. Download a text editor (such as VsCode)
-3. 
 
 # Set Up 
 
 ### `Download the code`
-Download the zip of this repository or do git clone 
+Download the zip of this repository or do git clone https://github.com/HackBeanpot/Desert-Exploration.git
 
 ### `npm install`
 
 Install all the dependencies needed for this project
-
 
 ### `npm start`
 
