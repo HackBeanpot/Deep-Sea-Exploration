@@ -23,7 +23,7 @@
     margin-top: 50px;
     display: flex;
     height: fit-content;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .heading {
@@ -63,7 +63,7 @@
     padding-top: 15px;
     padding-bottom: 15px;
     background: #DE8563;
-    width: 500px;
+    max-width: 500px;
     height: 500px;
     border-radius: 25px;
     text-align: center;
@@ -73,7 +73,7 @@
     display: flex;
     flex-direction: column;
     background-color: #DE8563;
-    width: 475px;
+    max-width: 475px;
     left: 25vw;
     top: 18vh;
     border-radius: 25px;

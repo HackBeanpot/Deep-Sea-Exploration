@@ -3,7 +3,6 @@ import { useState } from "react";
 
 function Checklist() {
     const checkList = ["hat", "sunglasses", "water"];
-    const [checkListState, setCheckList] = useState();
     const [toAdd, setToAdd] = useState("");
 
     // Exercise 1:

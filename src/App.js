@@ -7,7 +7,7 @@ import MessageSender from './components/MessageSender';
 
 
 function App() {
-  // Exercise 5:
+  // Exercise 4:
   // Allow the "Send Message to Message Component" button to display the message typed in the Checklist component in the Message component.
   const [message, setMessage] = useState("")
 
