@@ -4,10 +4,11 @@
 ### `Download the code`
 Download the zip of this repository or do git clone https://github.com/HackBeanpot/Desert-Exploration.git
 
-### `npm install`
+
 
 # Set Up 
 
+### `npm install`
 Install all the dependencies needed for this project
 
 ### `npm start`
