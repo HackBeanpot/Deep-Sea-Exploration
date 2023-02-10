@@ -1,26 +1,14 @@
 # Pre-Work:
 1. Install node: https://nodejs.org/en/download/
 2. Download a text editor (such as VsCode)
-3. Create a Github Account
-4. Download git: 
-
-* For Windows:
-  * git-scm.com/downloads
-
-
-* For Mac: 
-  * In your terminal: git --version or git (you’ll be prompted to install git)
-
-  * Else try
-    * https://git-scm.com/download/mac(you may have to download Homebrew if trying the first option)
-
-
-# Set Up 
+### `Download the code`
+Download the zip of this repository or do git clone https://github.com/HackBeanpot/Desert-Exploration.git
 
 ### `npm install`
 
-Install all the dependencies needed for this project
+# Set Up 
 
+Install all the dependencies needed for this project
 
 ### `npm start`
 
@@ -46,12 +34,8 @@ In the Checklist.js file:
 
 Enable the Add Item button to add items to the checkList
 
+
 ### Exercise 4:
-In Checklist.js file:
-
-Enable the Clear All button to clear all items from the list
-
-### Exercise 5:
 Allow the "Send Message to Message Component" button to display the message typed in the Checklist component in the Message component. 
 
 Hint: put relevant state and state "setters" to the parent of both components and pass down needed state and state "setters" down to the respective components.
