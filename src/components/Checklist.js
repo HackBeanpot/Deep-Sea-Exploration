@@ -2,7 +2,7 @@ import '../styles/global.css'
 import { useState } from "react";
 
 function Checklist() {
-    const checkList = ["hat", "sunglasses", "water"];
+    const checkList = ["flippers", "goggles", "oxygen tank"];
     const [toAdd, setToAdd] = useState("");
 
     // Exercise 1:

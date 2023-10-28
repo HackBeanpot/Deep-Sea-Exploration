@@ -8,6 +8,7 @@
     font-size: large;
     color: white;
     padding: 20px;
+    overflow: hidden;
 }
 
 .excitement {
@@ -23,7 +24,8 @@
     margin-top: 50px;
     display: flex;
     height: fit-content;
-    justify-content: space-between;
+    justify-content:space-around
+
 }
 
 .heading {
@@ -36,16 +38,17 @@
 .explorer-card {
     display: flex;
     flex-direction: column;
-    background-color: #DE8563;
+    background-color: #1E56C0;
     width: 500px;
     left: 25vw;
     top: 18vh;
     border-radius: 25px;
-    padding: 30px 30px 30px 30px;
+    padding: 50px
+
 }
 
 .explorer-card-prompt {
-    background: #C1623C;
+    background: #1E56C0;
     margin: auto;
     width: 50%;
     text-align: center;
@@ -62,23 +65,25 @@
 .message {
     padding-top: 15px;
     padding-bottom: 15px;
-    background: #DE8563;
+    background: #1E56C0;
     max-width: 500px;
     height: 500px;
     border-radius: 25px;
     text-align: center;
+    padding: 50px
 }
 
 .checklist-card {
     display: flex;
     flex-direction: column;
-    background-color: #DE8563;
+    background-color: #1E56C0;
     max-width: 475px;
     left: 25vw;
     top: 18vh;
     border-radius: 25px;
     padding: 10px 10px 10px 10px;
     color: white;
+    padding: 50px
 }
 
 .list-header {
